@@ -11,7 +11,8 @@ const ChatLayout = ({
     <div>
         <SidebarProvider>
             <AppSidebar />
-            <main>
+            <main className='py-10 px-7.5 w-full bg-[#131313]'>
+              
                 {children}
             </main>
 
